@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="001. MainGame">
+      <UniqueIdentifier>{565981e1-332c-4b07-ab68-4ad1d0565a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002. Manager">
+      <UniqueIdentifier>{01952764-5584-4b28-9351-5346e37fa658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002. Manager\Image">
+      <UniqueIdentifier>{b8a266cf-da02-48e9-b5b1-c1201603c7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002. Manager\Scene">
+      <UniqueIdentifier>{8e5d9ccb-38a4-44d5-b70e-8321bc2a4612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002. Manager\UI">
+      <UniqueIdentifier>{92f176f2-26b1-4afa-a298-a61c96ab005b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002. Manager\Input">
+      <UniqueIdentifier>{2a95871b-7f73-41e1-9b0a-c3f4b7c2d098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002. Manager\Render">
+      <UniqueIdentifier>{3b200d27-08bb-4176-a56d-52d03ccb4a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002. Manager\Sound">
+      <UniqueIdentifier>{1a1851e2-6216-4fa9-8a2c-21781430d04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object">
+      <UniqueIdentifier>{836abc26-8cac-4174-a65b-de5b8f1dcf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="004. Scene">
+      <UniqueIdentifier>{c8e6b02c-15ef-4b44-9ac0-57dd0cadc56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Mob">
+      <UniqueIdentifier>{54e53f22-b87b-4a9e-8550-50ce7aa02c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Player">
+      <UniqueIdentifier>{70ba9318-0849-4af3-9304-016d23beee4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Bullet">
+      <UniqueIdentifier>{4aa017d5-4adb-4d7e-bbe2-f73a046498ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Map">
+      <UniqueIdentifier>{b27df27f-4990-45ae-b5a7-de3c58639017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="004. Scene\Ingame">
+      <UniqueIdentifier>{d790d895-fe47-4d3e-bd27-492a755fa6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Bullet\PBullet">
+      <UniqueIdentifier>{70d952d4-6f80-4e94-9b1a-941ad67a8da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Bullet\Admin">
+      <UniqueIdentifier>{e084f974-4e51-46b7-aa9a-d8b7404d8320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Collision">
+      <UniqueIdentifier>{31eea56a-c69d-431a-9e72-285b23bedfd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Mob\Bat">
+      <UniqueIdentifier>{abf4e0bc-89d7-4931-bef1-f07a7fdf0d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Mob\Propeller">
+      <UniqueIdentifier>{5db5bed2-2308-40fe-9338-f40272aceaf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Mob\Ballon">
+      <UniqueIdentifier>{9a58a773-44b8-4184-8b00-fbfccd80210f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Mob\boos">
+      <UniqueIdentifier>{d3b5dfbb-acfb-4671-941d-483bb39149f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Bullet\MBullet">
+      <UniqueIdentifier>{c8a2429d-250b-46bc-9064-1adf666f39ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Bullet\MBullet\Homing">
+      <UniqueIdentifier>{9d07420a-c671-4a8a-ade2-a9d7472b6605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Mob\Admin">
+      <UniqueIdentifier>{9a587509-6e11-48f6-acc4-398decc0f57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="002. Manager\Particle">
+      <UniqueIdentifier>{ddd75029-abec-4d52-9e54-fe55294095a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Mob\Taggari">
+      <UniqueIdentifier>{1f2f6d96-f1c3-4b30-bcfd-de9d7baed85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="004. Scene\Title">
+      <UniqueIdentifier>{8ad258a6-07e8-47a5-a816-b2f4e43558c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Item">
+      <UniqueIdentifier>{d22a5d46-9565-40aa-8cf3-87c2ea7b5562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Item\Fuel">
+      <UniqueIdentifier>{57b0eb1b-d2bb-493d-b999-bd105667088d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Item\Heal">
+      <UniqueIdentifier>{8bdcf2aa-b1c2-46a7-a58e-937576538d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="003. Object\Item\Admin">
+      <UniqueIdentifier>{810bb3c9-add3-4e61-8a60-0e29d59e0e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="004. Scene\Result">
+      <UniqueIdentifier>{9058e921-c13a-4b8c-88fa-1ceb48c25ac5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Unknown.cpp" />
+    <ClCompile Include="singleton.cpp">
+      <Filter>002. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageManger.cpp">
+      <Filter>002. Manager\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cTexture.cpp">
+      <Filter>002. Manager\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>002. Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>002. Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIManager.cpp">
+      <Filter>002. Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>002. Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cRenderManager.cpp">
+      <Filter>002. Manager\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngameScene.cpp">
+      <Filter>004. Scene\Ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>001. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cScrollMap.cpp">
+      <Filter>003. Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>002. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>003. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>003. Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cPBullet.cpp">
+      <Filter>003. Object\Bullet\PBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletAdmin.cpp">
+      <Filter>003. Object\Bullet\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="cMob.cpp">
+      <Filter>003. Object\Mob</Filter>
+    </ClCompile>
+    <ClCompile Include="cBat.cpp">
+      <Filter>003. Object\Mob\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="cMBullet.cpp">
+      <Filter>003. Object\Bullet\MBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cMHBullet.cpp">
+      <Filter>003. Object\Bullet\MBullet\Homing</Filter>
+    </ClCompile>
+    <ClCompile Include="cMobAdmin.cpp">
+      <Filter>003. Object\Mob\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="cBallon.cpp">
+      <Filter>003. Object\Mob\Ballon</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoos.cpp">
+      <Filter>003. Object\Mob\boos</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticle.cpp">
+      <Filter>002. Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleAni.cpp">
+      <Filter>002. Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleManager.cpp">
+      <Filter>002. Manager\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cTaggari.cpp">
+      <Filter>003. Object\Mob\Taggari</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollison.cpp">
+      <Filter>003. Object\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitleScene.cpp">
+      <Filter>004. Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem.cpp">
+      <Filter>003. Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cFuel.cpp">
+      <Filter>003. Object\Item\Fuel</Filter>
+    </ClCompile>
+    <ClCompile Include="cHeal.cpp">
+      <Filter>003. Object\Item\Heal</Filter>
+    </ClCompile>
+    <ClCompile Include="cItemAdmin.cpp">
+      <Filter>003. Object\Item\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="cResultScene.cpp">
+      <Filter>004. Scene\Result</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="singleton.h">
+      <Filter>002. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManger.h">
+      <Filter>002. Manager\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="cTexture.h">
+      <Filter>002. Manager\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>002. Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>002. Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIManager.h">
+      <Filter>002. Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>002. Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="cRenderManager.h">
+      <Filter>002. Manager\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngameScene.h">
+      <Filter>004. Scene\Ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>001. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cScrollMap.h">
+      <Filter>003. Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>002. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>003. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>003. Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cPBullet.h">
+      <Filter>003. Object\Bullet\PBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cMBullet.h">
+      <Filter>003. Object\Bullet\MBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletAdmin.h">
+      <Filter>003. Object\Bullet\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="cMob.h">
+      <Filter>003. Object\Mob</Filter>
+    </ClInclude>
+    <ClInclude Include="cBat.h">
+      <Filter>003. Object\Mob\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="cMHBullet.h">
+      <Filter>003. Object\Bullet\MBullet\Homing</Filter>
+    </ClInclude>
+    <ClInclude Include="cMobAdmin.h">
+      <Filter>003. Object\Mob\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="cBallon.h">
+      <Filter>003. Object\Mob\Ballon</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoos.h">
+      <Filter>003. Object\Mob\boos</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>002. Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleAni.h">
+      <Filter>002. Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleManager.h">
+      <Filter>002. Manager\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cTaggari.h">
+      <Filter>003. Object\Mob\Taggari</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollison.h">
+      <Filter>003. Object\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitleScene.h">
+      <Filter>004. Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem.h">
+      <Filter>003. Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cFuel.h">
+      <Filter>003. Object\Item\Fuel</Filter>
+    </ClInclude>
+    <ClInclude Include="cHeal.h">
+      <Filter>003. Object\Item\Heal</Filter>
+    </ClInclude>
+    <ClInclude Include="cItemAdmin.h">
+      <Filter>003. Object\Item\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="cResultScene.h">
+      <Filter>004. Scene\Result</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Unknown.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
